@@ -48,7 +48,6 @@ const countryData = {
     "Canada": { "color": "#FF6F61", "link": "https://energy-information.canada.ca/en/resources/high-frequency-electricity-data"},
     "Chile": { "color": "#FFCC99", "link": "https://www.coordinador.cl/operacion/graficos/operacion-real/demanda-real/" },    
     "Cyprus": { "color": "#FFDE59", "link": "https://tsoc.org.cy/electrical-system/archive-total-daily-system-generation-on-the-transmission-system/" },
-    "South Africa": { "color": "#CCFF99", "https://www.eskom.co.za/dataportal/demand-side/" },
     "Turkey": { "color": "#6699FF", "link": "https://www.kaggle.com/datasets/dharanikra/electrical-power-demand-in-turkey" }   
 };
 
