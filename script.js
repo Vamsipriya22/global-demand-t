@@ -8,8 +8,7 @@
     bearing: 0,
     antialias: true,
     maxZoom: 1.5,
-    minZoom: 1.5,
-    maxBounds: [[-180, -85], [180, 85]] // lock to world extent
+    minZoom: 1.5
   });
 
 // Sample demand data with country colors and links
