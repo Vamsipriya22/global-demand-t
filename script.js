@@ -6,7 +6,9 @@ const map = new maplibregl.Map({
     zoom: 1.75,
     pitch: 30,
     bearing: 0,
-    antialias: true
+    antialias: true,
+    maxZoom: 1.8,
+    minZoom: 1.5
 });
 
 // Sample demand data with country colors and links
