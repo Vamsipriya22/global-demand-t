@@ -8,7 +8,8 @@ const map = new maplibregl.Map({
     bearing: 0,
     antialias: true,
     maxZoom: 1.8,
-    minZoom: 1.5
+    minZoom: 1.5,
+    maxBounds: [[-180, -60], [180, 85]]
 });
 
 // Sample demand data with country colors and links
