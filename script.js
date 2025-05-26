@@ -1,15 +1,13 @@
 // Create the Map
-  const map = new maplibregl.Map({
+const map = new maplibregl.Map({
     container: 'map',
-    style: 'https://demotiles.maplibre.org/style.json', // Open, simple style
-    center: [0, 20],      // Center on Africa for nice initial view
-    zoom: 1.5,
-    pitch: 0,
+    style: 'https://demotiles.maplibre.org/style.json', // Default MapLibre style
+    center: [0, 25], // [Longitude, Latitude]
+    zoom: 1.8,
+    pitch: 30,
     bearing: 0,
-    antialias: true,
-    maxZoom: 1.5,
-    minZoom: 1.5
-  });
+    antialias: true
+});
 
 // Sample demand data with country colors and links
 const countryData = {
