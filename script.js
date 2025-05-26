@@ -1,15 +1,19 @@
 // Create the Map
 const map = new maplibregl.Map({
-    container: 'map',
-    style: 'https://demotiles.maplibre.org/style.json', // Default MapLibre style
-    center: [0, 25], // [Longitude, Latitude]
-    zoom: 1.7,
-    pitch: 30,
-    bearing: 0,
-    antialias: true,
-    maxZoom: 1.8,
-    minZoom: 1.0
+  container: 'map',
+  style: 'https://demotiles.maplibre.org/style.json',
+  center: [0, 20],
+  zoom: 1.5,
+  pitch: 0,
+  bearing: 0,
+  maxBounds: [
+    [-180, -85],  // Southwest corner (left-bottom)
+    [180, 85]     // Northeast corner (right-top)
+  ],
+  maxZoom: 3,
+  minZoom: 1
 });
+
 
 // Sample demand data with country colors and links
 const countryData = {
